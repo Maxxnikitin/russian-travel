@@ -1,0 +1,17 @@
+.header__lang {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  width: 30px;
+  height: 24px;
+}
+
+.header__lang:first-of-type {
+  margin-right: 18px;
+}
+
+.header__lang:hover {
+  text-decoration: underline;
+}
