@@ -1,0 +1,13 @@
+.intro__text {
+  max-width: 383px;
+  max-height: 93px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8125em;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

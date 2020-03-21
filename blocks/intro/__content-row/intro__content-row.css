@@ -1,0 +1,11 @@
+.intro__content-row {
+  max-width: 683px;
+  max-height: 154px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875em;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 48px 0 24px;
+}
