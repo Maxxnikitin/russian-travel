@@ -5,7 +5,7 @@
 
 .intro {
   max-width: 985px;
-  max-height: 371px;
+  min-height: 371px;
   display: flex;
   margin: 80px auto 102px;
 }

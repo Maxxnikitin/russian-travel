@@ -1,0 +1,23 @@
+@import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url/place__url.css);
+@import url(./__image/place__image.css);
+@import url(./__paragraph-container/place__paragraph-container.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+  max-width: 984px;
+  min-height: 653px;
+  margin-bottom: 72px;
+  display: grid;
+  grid-template-areas:
+  'title website'
+  'image paragraph-container';
+  column-gap: 2.5rem;
+  row-gap: 3.75rem;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
