@@ -14,8 +14,7 @@
   grid-template-areas:
   'title website'
   'image paragraph-container';
-  column-gap: 2.5rem;
-  row-gap: 3.75rem;
+  grid-gap: 3.75rem 2.5rem;
 }
 
 .place:last-of-type {

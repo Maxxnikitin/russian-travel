@@ -1,0 +1,10 @@
+.content-title {
+  max-width: 800px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.875rem;
+  text-align: center;
+  color: #FFFFFF;
+}

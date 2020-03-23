@@ -1,0 +1,12 @@
+@import url(./__container/video__container.css);
+@import url(./__item-kamchatka/video__item-kamchatka.css);
+@import url(./__item-observatory/video__item-observatory.css);
+@import url(./__item-image/video__item-image.css);
+@import url(./__overlay/video__overlay.css);
+@import url(./__duration/video__duration.css);
+
+.video {
+  max-width: 1184px;
+  min-height: 648px;
+  margin: 0 auto;
+}
