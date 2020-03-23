@@ -1,0 +1,9 @@
+.video__text-kamchatka {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 2;
+}
+
+.video__text-kamchatka:hover .video__image_kamchatka {
+  opacity: 0;
+}

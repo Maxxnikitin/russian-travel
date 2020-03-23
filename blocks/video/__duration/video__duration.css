@@ -1,3 +1,11 @@
 .video__duration {
-
+  max-width: 44px;
+  min-height: 12px;
+  margin: 94px 0 0 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.8125rem;
+  letter-spacing: 0.3rem;
+  color: #FFFFFF;
 }

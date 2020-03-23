@@ -1,6 +1,8 @@
+@import url(./_kamchatka/video__overlay_kamchatka.css);
+@import url(./_observatory/video__overlay_observatory.css);
+
 .video__overlay {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
-  z-index: -1;
 }

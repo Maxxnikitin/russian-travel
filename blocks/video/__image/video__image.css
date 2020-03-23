@@ -1,0 +1,9 @@
+@import url(./_kamchatka/video__image_kamchatka.css);
+@import url(./_observatory/video__image_observatory.css);
+
+.video__image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+
+}
