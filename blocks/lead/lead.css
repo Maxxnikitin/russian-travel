@@ -14,3 +14,14 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
+@media (max-width: 1100px) {
+  .lead {
+    margin: 0 48px;
+  }
+}
+@media (max-width: 800px) {
+  .lead {
+    margin: 0;
+  }
+}

@@ -3,8 +3,26 @@
   min-height: 52px;
   font-style: normal;
   font-weight: 900;
-  font-size: 3.375em;
+  font-size: 3.375rem;
   line-height: 3.6875rem;
   color: white;
   margin: 0;
+}
+
+@media (max-width: 550px) {
+  .intro__title {
+    font-size: 4rem;
+    line-height: 4.375rem;
+  }
+}
+@media (max-width: 450px) {
+  .intro__title {
+    max-width: 250px;
+  }
+}
+@media (max-width: 350px) {
+  .intro__title {
+    font-size: 4.776rem;
+    line-height: 5.2239rem;
+  }
 }

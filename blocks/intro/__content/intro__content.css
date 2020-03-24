@@ -2,3 +2,9 @@
   max-width: 683px;
   min-height: 371px;
 }
+
+@media (max-width: 800px) {
+  .intro__content {
+    max-width: 720px;
+  }
+}

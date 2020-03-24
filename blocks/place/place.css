@@ -8,10 +8,10 @@
 
 .place {
   max-width: 984px;
-  min-height: 653px;
   margin-bottom: 72px;
   display: -ms-grid;
   display: grid;
+  grid-template-columns: 47% 53%;
   grid-template-areas:
   'title website'
   'image paragraph-container';

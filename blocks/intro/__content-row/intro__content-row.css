@@ -8,3 +8,29 @@
   color: #FFFFFF;
   margin: 3rem 0 1.5rem;
 }
+
+@media (max-width: 800px) {
+  .intro__content-row {
+    max-width: 720px;
+  }
+}
+@media (max-width: 700px) {
+  .intro__content-row {
+    font-size: 1.1667rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .intro__content-row {
+    font-size: 2rem;
+    line-height: 3.375rem;
+    margin: 4rem 0 4rem;
+  }
+}
+@media (max-width: 350px) {
+  .intro__content-row {
+    font-size: 2.388rem;
+    line-height: 4.030rem;
+    margin: 4rem 0 4rem;
+  }
+}

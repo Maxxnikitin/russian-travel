@@ -1,3 +1,6 @@
+@import url(./__langs/header__langs.css);
+@import url(./__lang/header__lang.css);
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7,6 +10,17 @@
   justify-content: space-between;
   max-width: 1184px;
   max-height: 52px;
-  margin: 0 auto 48px;
-  padding-top: 30px;
+  margin: 0 auto 3rem;
+  padding: 30px 48px 0;
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 30px 24px 0;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    padding: 16px 16px 0;
+  }
 }

@@ -10,3 +10,23 @@
   color: white;
   margin-top: 0.6794rem;
 }
+
+@media (max-width: 800px) {
+  .lead__caption {
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 550px) {
+  .lead__caption {
+    margin-left: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .lead__caption {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
