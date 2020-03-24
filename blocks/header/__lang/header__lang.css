@@ -1,5 +1,6 @@
+@import url(./_underline/header__lang_underline.css);
+
 .header__lang {
-  text-decoration: none;
   color: white;
   font-style: normal;
   font-weight: normal;
@@ -13,5 +14,5 @@
 }
 
 .header__lang:hover {
-  text-decoration: underline;
+  opacity: 0.5;
 }
