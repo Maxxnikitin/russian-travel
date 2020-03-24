@@ -1,0 +1,7 @@
+.footer__menu {
+  margin-right: 18px;
+}
+
+.footer__menu:last-of-type {
+  margin: 0;
+}
