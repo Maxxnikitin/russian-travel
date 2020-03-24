@@ -6,6 +6,8 @@
 .intro {
   max-width: 985px;
   min-height: 371px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 80px auto 102px;
 }

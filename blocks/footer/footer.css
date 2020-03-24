@@ -7,6 +7,10 @@
   max-width: 1184px;
   margin: 0 auto;
   padding-bottom: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }

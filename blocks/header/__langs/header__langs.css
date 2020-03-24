@@ -1,4 +1,6 @@
 .header__langs {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }

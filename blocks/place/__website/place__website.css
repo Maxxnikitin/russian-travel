@@ -1,6 +1,7 @@
 .place__website {
   max-width: 484px;
   min-height: 46px;
+  -ms-grid-row-align: end;
   align-self: end;
   grid-area: website;
 }

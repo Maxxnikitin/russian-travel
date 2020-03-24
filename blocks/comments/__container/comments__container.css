@@ -2,7 +2,9 @@
   max-width: 1184px;
   min-height: 283px;
   margin: 0 auto;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 19px 1fr 19px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 19px;
 }

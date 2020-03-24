@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <link rel='icon' type='image' href='images/logo/logo_header.svg'>
   <meta name="description" content="Страница о путешествии по России">
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="Максим Никитин">
@@ -43,7 +42,7 @@
         </div>
       </section>
 
-      <section>
+      <section> <!--Я видел в валидаторе, что он ругается на то, что в секции нет заголовка. Но по макету его нет, так что либо оставить так, как есть, либо изменить section на div. Пока оставлю так, если нужно будет поменять - поменяю. Спасибо. =)-->
         <div class='photo-grid'>
           <img class='photo-grid__item' src='images/grid/grid_1.jpg' alt='Фото - вид из окна вагона.'>
           <img class='photo-grid__item' src='images/grid/grid_2.jpg' alt='Фото - горы в облаках.'>
@@ -127,14 +126,14 @@
         <p class='content-subtitle'>Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
         <div class='video__container'>
           <img class='video__image video__image_kamchatka' src='images/video/kamchatka.jpg' alt='Фото Камчатки.'>
-          <img class='video__overlay video__overlay_kamchatka' src='images/video/rect.png' alt='Фон.'>
+          <img class='video__overlay video__overlay_kamchatka' src='images/video/rect.png' alt='Фон.'> <!-- Я пробовал сделать подложку через div и background-image, но при сжатии экрана она не сжималась так, как картинка, и выходила за её пределы. И победить я её не смог. Поэтому сделал отдельной картинкой, так она чётко слежует за картинкой при сжатии. Ниже по коду я ещё в паре мест так же сделал, не буду там писать комменты. Если надо сделать по-другому - напишите, буду исправлять. Спасибо. =)-->
           <div class='video__text-kamchatka'>
             <a class='video__link' href='https://vimeo.com/81106671'>
             <img class='video__icon-play' src='images/video/icon_play.png' alt='Кнопка плей.'>
             <p class='video__duration'>6:30</p>
             <h3 class='video__title'>Colors of Kamchatka</h3>
             <p class='video__subtitle'>Director: Pavel Karykhalin</p>
-            <img class='video__blackout-kamchatka' src='images/video/rect.png' alt='Затемнение.'>
+            <img class='video__blackout-kamchatka' src='images/video/rect.png' alt='Затемнение.'> <!--Моя изначальная задумка была в том, чтобы при наведении на текст менялась прозрачность у подложки, которую я сделал выше, но оказалось, что так не работает и что при наведении меняются свойства только у дочерних элементов. Пришлось сделать отдельную подложку и спозиционировать её абсолютно, чтобы она была дочерним элементом и в то же время занимала всю площадь. Надеюсь, что это не ошибка. =)-->
             </a>
           </div>
           <img class='video__image video__image_observatory' src='images/video/observatory.jpg' alt='Фото обсерватории.'>

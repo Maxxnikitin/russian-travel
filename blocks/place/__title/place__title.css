@@ -6,6 +6,7 @@
   line-height: 4.0625rem;
   color: #FFFFFF;
   margin: 0;
+  -ms-grid-row-align: end;
   align-self: end;
   grid-area: title;
 }
