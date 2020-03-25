@@ -1,11 +1,39 @@
 .video__duration {
   max-width: 44px;
-  min-height: 12px;
-  margin: 94px 0 0 30px;
+  margin: 16.123% 0 0 5.146%;
   font-style: normal;
   font-weight: 500;
   font-size: 0.75rem;
   line-height: 0.8125rem;
   letter-spacing: 0.3rem;
   color: #FFFFFF;
+}
+
+@media (max-width: 1220px) {
+  .video__duration {
+    margin: 12% 0 0 5.146%;
+  }
+}
+@media (max-width: 1220px) {
+  .video__duration {
+    margin: 11.5% 0 0 5.146%;
+  }
+}
+@media (max-width: 700px) {
+  .video__duration {
+    font-size: 1rem;
+    line-height: 1.0834rem;
+  }
+}
+@media (max-width: 550px) {
+  .video__duration {
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+  }
+}
+@media (max-width: 350px) {
+  .video__duration {
+    font-size: 1.791rem;
+    line-height: 1.94rem;
+  }
 }

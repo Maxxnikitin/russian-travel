@@ -5,3 +5,10 @@
   align-self: end;
   grid-area: website;
 }
+
+
+@media (max-width: 550px) {
+  .place__website {
+    display: none;
+  }
+}

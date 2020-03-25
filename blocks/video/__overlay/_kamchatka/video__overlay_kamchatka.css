@@ -1,4 +1,6 @@
 .video__overlay_kamchatka {
+  -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 1;
   grid-row: 1;
 }

@@ -4,3 +4,14 @@
   object-fit: cover;
   grid-area: image;
 }
+
+@media (max-width: 550px) {
+  .place__image {
+    margin: 4rem 0 3rem;
+  }
+}
+@media (max-width: 350px) {
+  .place__image {
+    margin: 4.776rem 0 3.582rem;
+  }
+}

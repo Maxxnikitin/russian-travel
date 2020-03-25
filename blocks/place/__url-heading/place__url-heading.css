@@ -8,3 +8,11 @@
   color: #AAAAAA;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 700px) {
+  .place__url-heading {
+    font-size: 1rem;
+    line-height: 1.6667rem;
+    letter-spacing: 0.2667rem;
+  }
+}

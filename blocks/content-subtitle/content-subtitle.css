@@ -1,10 +1,38 @@
 .content-subtitle {
   max-width: 640px;
-  margin: 48px auto 72px;
+  margin: 3rem auto 4.5rem;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 2.1875rem;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media (max-width: 800px) {
+  .content-subtitle {
+    margin: 1.5rem auto 3.5rem;
+  }
+}
+@media (max-width: 700px) {
+  .content-subtitle {
+    margin: 2rem auto 4.6667rem;
+    font-size: 2rem;
+    line-height: 2.9167rem;
+  }
+}
+@media (max-width: 550px) {
+  .content-subtitle {
+    max-width: 450px;
+    margin: 2rem auto 3rem;
+    font-size: 2rem;
+    line-height: 2.875rem;
+  }
+}
+@media (max-width: 350px) {
+  .content-subtitle {
+    margin: 2.388rem auto 3.582rem;
+    font-size: 2.388rem;
+    line-height: 3.433rem;
+  }
 }
