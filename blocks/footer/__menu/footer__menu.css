@@ -1,7 +1,25 @@
 .footer__menu {
-  margin-right: 18px;
+  margin-right: 1.125rem;
 }
 
 .footer__menu:last-of-type {
   margin: 0;
+}
+
+@media (max-width: 700px) {
+  .footer__menu {
+    margin-right: 1.5rem;
+  }
+}
+@media (max-width: 550px) {
+  .footer__menu {
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer__menu {
+    margin-bottom: 4.776rem;
+  }
 }

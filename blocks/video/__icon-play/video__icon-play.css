@@ -1,13 +1,31 @@
 .video__icon-play {
   width: 41px;
   height: 41px;
-  margin-top: 5.15%;
-  margin-left: 5.146%;
+  margin-top: 1.875rem;
+  margin-left: 1.875rem;
 }
 
-/*@media (max-width: 800px) {
+@media (max-width: 800px) {
   .video__icon-play {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
   }
-}8?
+}
+@media (max-width: 700px) {
+  .video__icon-play {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .video__icon-play {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 350px) {
+  .video__icon-play {
+    margin-top: 2.388rem;
+    margin-left: 2.388rem;
+  }
+}

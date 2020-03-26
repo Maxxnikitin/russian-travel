@@ -7,3 +7,24 @@
   width: 100%;
   opacity: 1;
 }
+
+@media (max-width: 1250px) {
+  .cover__overlay {
+    height: 562px;
+  }
+}
+@media (max-width: 800px) {
+  .cover__overlay {
+    height: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .cover__overlay {
+    height: 272px;
+  }
+}
+@media (max-width: 350px) {
+  .cover__overlay {
+    height: 216px;
+  }
+}

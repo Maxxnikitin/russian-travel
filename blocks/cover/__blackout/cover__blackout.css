@@ -6,3 +6,24 @@
   z-index: -1;
   opacity: 0;
 }
+
+@media (max-width: 1250px) {
+  .cover__blackout {
+    height: 562px;
+  }
+}
+@media (max-width: 800px) {
+  .cover__blackout {
+    height: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .cover__blackout {
+    height: 272px;
+  }
+}
+@media (max-width: 350px) {
+  .cover__blackout {
+    height: 216px;
+  }
+}

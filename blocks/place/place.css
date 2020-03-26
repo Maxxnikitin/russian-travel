@@ -50,6 +50,7 @@
     flex-direction: column;
     margin-bottom: 6rem;
   }
+}
 @media (max-width: 350px) {
   .place {
     margin-bottom: 7.164rem;

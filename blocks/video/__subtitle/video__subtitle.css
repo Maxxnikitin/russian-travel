@@ -1,6 +1,6 @@
 .video__subtitle {
   max-width: 285px;
-  margin: 3.087% 0 0 5.146%;
+  margin: 3.087% 0 0 1.875rem;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -8,20 +8,33 @@
   color: #FFFFFF;
 }
 
+@media (max-width: 1050px) {
+  .video__subtitle {
+    margin: 3.95% 0 0 1.875rem;
+  }
+}
+@media (max-width: 800px) {
+  .video__subtitle {
+    margin: 3.41% 0 0 1.5rem;
+  }
+}
 @media (max-width: 700px) {
   .video__subtitle {
+    margin: 3.087% 0 0 2rem;
     font-size: 1.1667rem;
     line-height: 1.125rem;
   }
 }
 @media (max-width: 550px) {
   .video__subtitle {
+    margin: 0.585% 0 0 3rem;
     font-size: 1.75rem;
     line-height: 1.825rem;
   }
 }
 @media (max-width: 350px) {
   .video__subtitle {
+    margin: 0.695% 0 0 2.388rem;
     font-size: 2.089rem;
     line-height: 2.2388rem;
   }

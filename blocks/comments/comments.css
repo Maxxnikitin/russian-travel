@@ -2,6 +2,32 @@
 
 .comments {
   max-width: 1184px;
-  min-height: 618px;
-  margin: 102px auto;
+  margin: 6.375rem auto;
+}
+
+@media (max-width: 1280px) {
+  .comments {
+    margin: 6.375rem 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .comments {
+    margin: 6.375rem 3.375rem;
+  }
+}
+@media (max-width: 700px) {
+  .comments {
+    margin: 8.5rem 4.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .comments {
+    margin: 8rem 2rem;
+  }
+}
+@media (max-width: 350px) {
+  .comments {
+    margin: 9.552rem 2.388rem;
+  }
 }
