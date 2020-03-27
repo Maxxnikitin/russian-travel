@@ -5,10 +5,11 @@
   font-size: 1.5rem;
   line-height: 2.5625rem;
   color: #FFFFFF;
+  transition: opacity 1s ease;
 }
 
 .footer__link:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 @media (max-width: 950px) {
@@ -29,7 +30,7 @@
     line-height: 5.125rem;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 350px) {
   .footer__link {
     font-size: 3.582rem;
     line-height: 6.119rem;

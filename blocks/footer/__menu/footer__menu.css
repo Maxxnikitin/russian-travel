@@ -14,12 +14,12 @@
 @media (max-width: 550px) {
   .footer__menu {
     margin-right: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 1.8rem;
   }
 }
 
 @media (max-width: 350px) {
   .footer__menu {
-    margin-bottom: 4.776rem;
+    margin-bottom: 2.1492rem;
   }
 }

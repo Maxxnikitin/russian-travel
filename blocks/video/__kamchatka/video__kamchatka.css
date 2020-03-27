@@ -1,0 +1,35 @@
+.video__kamchatka {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  position: relative;
+  background-image: url(../../../images/video/kamchatka.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  max-width: 583px;
+  height: 323px;
+  z-index: 0;
+}
+
+.video__kamchatka:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(../../../images/video/kamchatka.jpg)
+}
+
+@media (max-width: 1050px) {
+  .video__kamchatka {
+    height: 288px;
+  }
+}
+@media (max-width: 800px) {
+  .video__kamchatka {
+    height: 200px;
+  }
+}
+@media (max-width: 350px) {
+  .video__kamchatka {
+    height: 192px;
+  }
+}

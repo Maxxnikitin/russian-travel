@@ -1,38 +1,31 @@
-@import url(./__text/cover__text.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__blackout/cover__blackout.css);
+@import url(./__link/cover__link.css);
 
 .cover {
+  position: relative;
   background-image: url(../../images/cover/cover.jpg);
   background-size: cover;
   background-position: center;
   max-width: 1184px;
+  height: 594px;
   margin: 0 auto 10rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr;
-  grid-template-rows: 1fr;
+  z-index: 0;
 }
 
-.cover:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
+.cover:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(../../images/cover/cover.jpg)
 }
 
-
-@media (max-width: 1250px) {
+@media (max-width: 1070px) {
   .cover {
-    background-image: url(../../images/cover/cover_1024.jpg);
     height: 562px;
   }
 }
 @media (max-width: 800px) {
   .cover {
-    background-image: url(../../images/cover/cover_768.jpg);
     margin: 0 auto 6.375rem;
     height: 500px;
   }
@@ -44,14 +37,12 @@
 }
 @media (max-width: 550px) {
   .cover {
-    background-image: url(../../images/cover/cover_375.jpg);
     height: 272px;
     margin: 0 auto 8rem;
   }
 }
 @media (max-width: 350px) {
   .cover {
-    background-image: url(../../images/cover/cover_320.jpg);
     margin: 0 auto 9.5522rem;
     height: 216px;
   }

@@ -1,5 +1,6 @@
 @import url(./__langs/header__langs.css);
 @import url(./__lang/header__lang.css);
+@import url(./__link/header__link.css);
 
 .header {
   display: -webkit-box;
@@ -9,7 +10,6 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1184px;
-  max-height: 52px;
   margin: 0 auto 3rem;
   padding: 30px 48px 0;
 }

@@ -12,10 +12,21 @@
 @media (max-width: 700px) {
   .lead__subtitle {
     max-width: 375px;
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
 }
 @media (max-width: 550px) {
   .lead__subtitle {
     max-width: 290px;
+    font-size: 2rem;
+    line-height: 2.875rem;
+  }
+}
+@media (max-width: 350px) {
+  .lead__subtitle {
+    max-width: 290px;
+    font-size: 2.388rem;
+    line-height: 3.4328rem;
   }
 }

@@ -1,6 +1,6 @@
 .video__duration {
   max-width: 44px;
-  margin: 16.123% 0 0 1.875rem;
+  margin: 5.875rem 0 0 1.875rem;
   font-style: normal;
   font-weight: 500;
   font-size: 0.75rem;
@@ -11,32 +11,31 @@
 
 @media (max-width: 1050px) {
   .video__duration {
-    margin: 11.9% 0 0 1.875rem;
+    margin: 3.375rem 0 0 1.875rem;
   }
 }
-
 @media (max-width: 800px) {
   .video__duration {
-    margin: 10.3% 0 0 1.5rem;
+    margin: 1.0625rem 0 0 1.5rem;
   }
 }
 @media (max-width: 700px) {
   .video__duration {
-    margin: 11.5% 0 0 2rem;
+    margin: 1.4167rem 0 0 2rem;
     font-size: 1rem;
     line-height: 1.0834rem;
   }
 }
 @media (max-width: 550px) {
   .video__duration {
-    margin: 11.955% 0 0 3rem;
+    margin: 2.125rem 0 0 3rem;
     font-size: 1.5rem;
     line-height: 1.625rem;
   }
 }
 @media (max-width: 350px) {
   .video__duration {
-    margin: 17.015% 0 0 2.388rem;
+    margin: 3.4328rem 0 0 2.388rem;
     font-size: 1.791rem;
     line-height: 1.94rem;
   }

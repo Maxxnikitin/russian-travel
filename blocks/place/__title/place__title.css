@@ -10,3 +10,31 @@
   align-self: end;
   grid-area: title;
 }
+
+@media (max-width: 800px) {
+  .place__title {
+    max-width: 300px;
+    font-size: 2.625rem;
+    line-height: 2.875rem;
+  }
+}
+@media (max-width: 700px) {
+  .place__title {
+    font-size: 3.5rem;
+    line-height: 3.8334rem;
+  }
+}
+@media (max-width: 550px) {
+  .place__title {
+    margin-left: 2rem;
+    font-size: 4rem;
+    line-height: 4.375rem;
+  }
+}
+@media (max-width: 350px) {
+  .place__title {
+    margin-left: 2.388rem;
+    font-size: 4.776rem;
+    line-height: 5.2239rem;
+  }
+}

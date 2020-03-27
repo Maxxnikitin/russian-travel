@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html class='html' lang="ru">
+<html class='html' lang='ru'>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pages/index.css">
-  <meta name="description" content="Страница о путешествии по России">
-  <meta name="keywords" content="HTML5, CSS">
-  <meta name="author" content="Максим Никитин">
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'> <!--Я увидел ваш комментарий, но у нас в чек-листе написано, что normalize импортируется в index.css, а не сюда. Этот вопрос был причиной холивара в прошлой работе, потому что разные ревьюеры по-разному говорили, вроде как решили импортировать в css. =)-->
+  <link rel='stylesheet' href='pages/index.css'>
+  <meta name='description' content='Страница о путешествии по России'>
+  <meta name='keywords' content='HTML5, CSS'>
+  <meta name='author' content='Максим Никитин'>
   <title>Путешествия по России</title>
-  <base target="_blank">
+  <base target='_blank'>
 </head>
 <body>
-  <div class="page">
-    <header class="header">
+  <div class='page'>
+    <header class='header'>
       <img class='logo' src='images/logo/logo_header.svg' alt='Картинка карты России.'>
       <ul class='header__langs'>
-        <li class='header__lang header__lang_underline'>Ru</li>
-        <li class='header__lang'>En</li>
+        <li class='header__lang header__lang_underline'><a class='header__link' href='#' target='_self'>Ru</a></li>
+        <li class='header__lang'><a class='header__link' href='#' target='_self'>En</a></li>
       </ul>
     </header>
 
-    <main class="content">
+    <main class='content'>
       <section class='lead'>
         <h1 class='lead__title'>Путешествия по России</h1>
         <p class='lead__subtitle'>Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -33,38 +33,36 @@
           <h2 class='intro__title'>Чего мы там не видели?</h2>
           <p class='intro__content-row'>По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class='intro__text'>
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li><span class='intro__text_bold'>Часовых поясов</span> 11</li>
+            <li><span class='intro__text_bold'>Объектов природного наследия ЮНЕСКО</span> 12</li>
+            <li><span class='intro__text_bold'>Объектов культурного наследия ЮНЕСКО</span> 16</li>
+            <li><span class='intro__text_bold'>Природных заповедников</span> 105</li>
+            <li><span class='intro__text_bold'>Аэропортов</span> 241</li>
           </ul>
         </div>
       </section>
 
-      <section> <!--Я видел в валидаторе, что он ругается на то, что в секции нет заголовка. Но по макету его нет, так что либо оставить так, как есть, либо изменить section на div. Пока оставлю так, если нужно будет поменять - поменяю. Спасибо. =)-->
-        <div class='photo-grid'>
-          <img class='photo-grid__item' src='images/grid/grid_1.jpg' alt='Фото - вид из окна вагона.'>
-          <img class='photo-grid__item' src='images/grid/grid_2.jpg' alt='Фото - горы в облаках.'>
-          <img class='photo-grid__item' src='images/grid/grid_3.jpg' alt='Фото - волк в поле.'>
-          <img class='photo-grid__item' src='images/grid/grid_4.jpg' alt='Фото - лес в тумане.'>
-          <img class='photo-grid__item' src='images/grid/grid_5.jpg' alt='Фото - колесо автомобиля на льду.'>
-          <img class='photo-grid__item' src='images/grid/grid_6.jpg' alt='Фото - пляж.'>
-          <img class='photo-grid__item' src='images/grid/grid_7.jpg' alt='Фото - горы.'>
-          <img class='photo-grid__item' src='images/grid/grid_8.jpg' alt='Фото - пешеходный переход.'>
-          <img class='photo-grid__item' src='images/grid/grid_9.jpg' alt='Фото - валуны в тумане.'>
-          <img class='photo-grid__item' src='images/grid/grid_10.jpg' alt='Фото - гора и поле.'>
-          <img class='photo-grid__item' src='images/grid/grid_11.jpg' alt='Фото - скалы на берегу.'>
-          <img class='photo-grid__item' src='images/grid/grid_12.jpg' alt='Фото - холмы в тумане.'>
-        </div>
+      <section class='photo-grid'>
+        <img class='photo-grid__item' src='images/grid/grid_1.jpg' alt='Фото - вид из окна вагона.'>
+        <img class='photo-grid__item' src='images/grid/grid_2.jpg' alt='Фото - горы в облаках.'>
+        <img class='photo-grid__item' src='images/grid/grid_3.jpg' alt='Фото - волк в поле.'>
+        <img class='photo-grid__item' src='images/grid/grid_4.jpg' alt='Фото - лес в тумане.'>
+        <img class='photo-grid__item' src='images/grid/grid_5.jpg' alt='Фото - колесо автомобиля на льду.'>
+        <img class='photo-grid__item' src='images/grid/grid_6.jpg' alt='Фото - пляж.'>
+        <img class='photo-grid__item' src='images/grid/grid_7.jpg' alt='Фото - горы.'>
+        <img class='photo-grid__item' src='images/grid/grid_8.jpg' alt='Фото - пешеходный переход.'>
+        <img class='photo-grid__item' src='images/grid/grid_9.jpg' alt='Фото - валуны в тумане.'>
+        <img class='photo-grid__item' src='images/grid/grid_10.jpg' alt='Фото - гора и поле.'>
+        <img class='photo-grid__item' src='images/grid/grid_11.jpg' alt='Фото - скалы на берегу.'>
+        <img class='photo-grid__item' src='images/grid/grid_12.jpg' alt='Фото - холмы в тумане.'>
       </section>
 
       <section class='places'>
         <div class='place'>
           <h3 class='place__title'>Куршская коса</h3>
           <div class='place__website'>
-            <p class='place__url-heading'>URL</p>
-            <a class='place__url' href='http://park-kosa.ru/'>park-kosa.ru</a>
+            <p class='place__url-heading'>url</p>
+            <a class='place__url' href='http://park-kosa.ru/'>park-kosa.ru</a> <!--Я увидел ваш комментарий, но на этот случай я в head записал <base target> (строка 11) и у меня по умолчанию все ссылки в новом окне открываются. =)-->
           </div>
           <img class='place__image' src='images/plases/place_1.jpg' alt='Фото - камни на побережье моря'>
           <div class='place__paragraph-container'>
@@ -75,7 +73,7 @@
         <div class='place'>
           <h3 class='place__title'>Кольский</h3>
           <div class='place__website'>
-            <p class='place__url-heading'>URL</p>
+            <p class='place__url-heading'>url</p>
             <a class='place__url' href='https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy'>National Geographic</a>
           </div>
           <img class='place__image' src='images/plases/place_2.jpg' alt='Фото - поле и гора в снегу.'>
@@ -87,7 +85,7 @@
         <div class='place'>
           <h3 class='place__title'>Алтай</h3>
           <div class='place__website'>
-            <p class='place__url-heading'>URL</p>
+            <p class='place__url-heading'>url</p>
             <a class='place__url' href='https://www.facebook.com/vera.bashmakova/posts/10156011613718822'>Facebook</a>
           </div>
           <img class='place__image' src='images/plases/place_3.jpg' alt='Фото - плотная листва леса.'>
@@ -99,7 +97,7 @@
         <div class='place'>
           <h3 class='place__title'>Зимний Байкал</h3>
           <div class='place__website'>
-            <p class='place__url-heading'>URL</p>
+            <p class='place__url-heading'>url</p>
             <a class='place__url' href='https://vk.com/baikalmile'>https://vk.com/baikalmile</a>
           </div>
           <img class='place__image' src='images/plases/place_4.jpg' alt='Фото - замёрзшая вода Байкала.'>
@@ -111,7 +109,7 @@
         <div class='place'>
           <h3 class='place__title'>Карелия</h3>
           <div class='place__website'>
-            <p class='place__url-heading'>URL</p>
+            <p class='place__url-heading'>url</p>
             <a class='place__url' href='http://vodlozero.ru/'>http://vodlozero.ru/</a>
           </div>
           <img class='place__image' src='images/plases/place_5.jpg' alt='Фото - река и лес на двух её берегах.'>
@@ -122,36 +120,31 @@
       </section>
 
       <section class='video'>
-        <h2 class='content-title'>В глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
+        <h2 class='content-title content-title_video'>В глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
         <p class='content-subtitle'>Видео от студии Stereotactic о местах в&nbsp;России, где ведутся фундаментальные исследования</p>
         <div class='video__container'>
-          <img class='video__image video__image_kamchatka' src='images/video/kamchatka.jpg' alt='Фото Камчатки.'>
-          <img class='video__overlay video__overlay_kamchatka' src='images/video/rect.png' alt='Фон.'><!-- Я пробовал сделать подложку через div и background-image, но при сжатии экрана она не сжималась так, как картинка, и выходила за её пределы. И победить я её не смог. Поэтому сделал отдельной картинкой, так она чётко следует за картинкой при сжатии. Ниже по коду я ещё в паре мест так же сделал, не буду там писать комменты. Если надо сделать по-другому - напишите, буду исправлять. Спасибо. =)-->
-          <div class='video__text-kamchatka'>
-            <a class='video__link' href='https://vimeo.com/81106671'>
-              <img class='video__icon-play' src='images/video/icon_play.png' alt='Кнопка плей.'>
+          <a class='video__link' href='https://vimeo.com/81106671'>
+            <div class='video__kamchatka'>
+              <img class='video__icon-play' src='images/video/icon_play.svg' alt='Кнопка плей.'>
               <p class='video__duration'>6:30</p>
               <h3 class='video__title'>Colors of Kamchatka</h3>
               <p class='video__subtitle'>Director: Pavel Karykhalin</p>
-              <img class='video__blackout-kamchatka' src='images/video/rect.png' alt='Затемнение.'> <!--Моя изначальная задумка была в том, чтобы при наведении на текст менялась прозрачность у подложки, которую я сделал выше, но оказалось, что так не работает и что при наведении меняются свойства только у дочерних элементов. Пришлось сделать отдельную подложку и спозиционировать её абсолютно, чтобы она была дочерним элементом и в то же время занимала всю площадь. Надеюсь, что это не ошибка. =)-->
-            </a>
-          </div>
-          <img class='video__image video__image_observatory' src='images/video/observatory.jpg' alt='Фото обсерватории.'>
-          <img class='video__overlay video__overlay_observatory' src='images/video/rect.png' alt='Фон.'>
-          <div class='video__text-observatory'>
-            <a class='video__link' href='https://vimeo.com/290675450'>
-            <img class='video__icon-play' src='images/video/icon_play.png' alt='Кнопка плей.'>
-            <p class='video__duration'>24:45</p>
-            <h3 class='video__title'>Обсерватория | Observatory</h3>
-            <p class='video__subtitle'>Director: Alexander Khudokon</p>.
-            <img class='video__blackout-observatory' src='images/video/rect.png' alt='Затемнение.'>
-            </a>
-          </div>
-        </div>
+              <img class='video__overlay video__overlay_kamchatka' src='images/video/rect.png' alt='Фон.'>
+            </div>
+          </a>
+          <a class='video__link' href='https://vimeo.com/290675450'>
+            <div class='video__observatory'>
+              <img class='video__icon-play' src='images/video/icon_play.svg' alt='Кнопка плей.'>
+              <p class='video__duration'>24:45</p>
+              <h3 class='video__title'>Обсерватория | Observatory</h3>
+              <p class='video__subtitle'>Director: Alexander Khudokon</p>
+              <img class='video__overlay video__overlay_observatory' src='images/video/rect.png' alt='Фон.'>
+            </div>
+          </a>
       </section>
 
       <section class='comments'>
-        <h2 class='content-title'>Фотографы, снимающие Россию</h2>
+        <h2 class='content-title content-title_comments'>Фотографы, снимающие Россию</h2>
         <p class='content-subtitle'>Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
         <div class='comments__container'>
           <div class='comment'>
@@ -173,16 +166,15 @@
       </section>
 
       <section class='cover'>
-        <div class='cover__text'>
+        <a class='cover__link' href='https://stampsy.com/na-elektrichkakh-do-baikala'>
           <h2 class='cover__title'>До Байкала «на&nbsp;собаках»</h2>
           <p class='cover__subtitle'>По мотивам учебной темы о&nbsp;Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-          <img class='cover__blackout' src='images/cover/rect.png' alt='Затемнение.'>
-        </div>
-        <img class='cover__overlay' src='images/cover/rect.png' alt='Фон.'>
+          <img class='cover__overlay' src='images/cover/rect.png' alt='Фон.'>
+        </a>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class='footer'>
       <nav class='footer__nav'>
         <ul class='footer__list'>
           <li class='footer__menu'><a class='footer__link' href='https://yandex.ru/maps/'>Карты</a></li>

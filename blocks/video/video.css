@@ -1,15 +1,12 @@
 @import url(./__container/video__container.css);
-@import url(./__image/video__image.css);
 @import url(./__overlay/video__overlay.css);
 @import url(./__duration/video__duration.css);
 @import url(./__icon-play/video__icon-play.css);
 @import url(./__title/video__title.css);
 @import url(./__subtitle/video__subtitle.css);
-@import url(./__text-kamchatka/video__text-kamchatka.css);
-@import url(./__text-observatory/video__text-observatory.css);
-@import url(./__blackout-kamchatka/video__blackout-kamchatka.css);
-@import url(./__blackout-observatory/video__blackout-observatory.css);
 @import url(./__link/video__link.css);
+@import url(./__kamchatka/video__kamchatka.css);
+@import url(./__observatory/video__observatory.css);
 
 .video {
   max-width: 1184px;
