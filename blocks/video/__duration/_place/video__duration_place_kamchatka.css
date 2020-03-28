@@ -1,0 +1,34 @@
+.video__duration_place_kamchatka {
+  margin: 5.875rem 0 0 1.875rem;
+}
+
+@media (max-width: 1050px) {
+  .video__duration_place_kamchatka {
+    margin: 3.375rem 0 0 1.875rem;
+  }
+}
+@media (max-width: 800px) {
+  .video__duration_place_kamchatka {
+    margin: 2.2681rem 0 0 1.5rem;
+  }
+}
+@media (max-width: 700px) {
+  .video__duration_place_kamchatka {
+    margin: 3.0242rem 0 0 2rem;
+  }
+}
+@media (max-width: 614px) {
+  .video__duration_place_kamchatka {
+    margin: 1.4167rem 0 0 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .video__duration_place_kamchatka {
+    margin: 5.125rem 0 0 3rem;
+  }
+}
+@media (max-width: 350px) {
+  .video__duration_place_kamchatka {
+    margin: 7.3134rem 0 0 2.388rem;
+  }
+}
