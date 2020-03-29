@@ -1,11 +1,11 @@
-@import url(./__overlay/cover__overlay.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__link/cover__link.css);
 
 .cover {
   position: relative;
-  background-image: url(../../images/cover/cover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url(../../images/cover/cover.jpg);
   background-size: cover;
   background-position: center;
   max-width: 1184px;
@@ -16,7 +16,7 @@
 
 .cover:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-  url(../../images/cover/cover.jpg)
+  url(../../images/cover/cover.jpg);
 }
 
 @media (max-width: 1070px) {

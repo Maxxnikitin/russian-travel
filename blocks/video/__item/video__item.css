@@ -1,0 +1,26 @@
+@import url(./_kamchatka/video__item_kamchatka.css);
+@import url(./_observatory/video__item_observatory.css);
+
+.video__item {
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  max-width: 583px;
+  height: 323px;
+}
+
+@media (max-width: 1050px) {
+  .video__item {
+    height: 288px;
+  }
+}
+@media (max-width: 800px) {
+  .video__item {
+    height: 200px;
+  }
+}
+@media (max-width: 350px) {
+  .video__item {
+    height: 192px;
+  }
+}
