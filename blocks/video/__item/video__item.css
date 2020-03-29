@@ -1,5 +1,5 @@
-@import url(./_kamchatka/video__item_kamchatka.css);
-@import url(./_observatory/video__item_observatory.css);
+@import url(./_place/video__item_place_kamchatka.css);
+@import url(./_place/video__item_place_observatory.css);
 
 .video__item {
   background-size: cover;

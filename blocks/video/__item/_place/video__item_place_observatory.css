@@ -1,14 +1,14 @@
-.video__item_kamchatka {
-  -ms-grid-column: 1;
-  grid-column: 1;
+.video__item_place_observatory {
+  -ms-grid-column: 2;
+  grid-column: 2;
   -ms-grid-row: 1;
   grid-row: 1;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-  url(../../../../images/video/kamchatka.jpg);
+  url(../../../../images/video/observatory.jpg);
   /*Я не очень понял ваш комментарий, что затемнение нужно реализовать именно с помощью корректирующего слоя. Я вроде в прошлый раз как раз скачал этот корректирующий слой из макета, но вы сказали переделать. В общем, этот метод я согласовал с Рудомётовым, он сказал, что так норм. Спасибо. =)*/
 }
 
-.video__item_kamchatka:hover {
+.video__item_place_observatory:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-  url(../../../../images/video/kamchatka.jpg);
+  url(../../../../images/video/observatory.jpg);
 }
