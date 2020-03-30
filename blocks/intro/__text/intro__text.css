@@ -1,8 +1,7 @@
-@import url(./_bold/intro__text_bold.css);
-
 .intro__text {
   max-width: 383px;
   font-style: normal;
+  font-weight: normal;
   font-size: 0.8125rem;
   line-height: 1.25rem;
   color: #FFFFFF;
