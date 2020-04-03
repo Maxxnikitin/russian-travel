@@ -2,4 +2,27 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  max-width: 1184px;
+  height: 594px;
+}
+
+@media (max-width: 1070px) {
+  .cover__link {
+    height: 562px;
+  }
+}
+@media (max-width: 800px) {
+  .cover__link {
+    height: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .cover__link {
+    height: 272px;
+  }
+}
+@media (max-width: 350px) {
+  .cover__link {
+    height: 216px;
+  }
 }
